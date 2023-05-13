@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 export const GradientContainer = styled.div`
-  background: linear-gradient(${props => props.gradientValue});
+  background-image: linear-gradient(${props => props.gradientValue});
   height: 100vh;
   display: flex;
   flex-direction: column;
